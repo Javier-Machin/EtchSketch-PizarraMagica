@@ -4,14 +4,30 @@
 
 <head>
 	<title>Etch-A-Sketch</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body>
-
-	<div class="gridContainer"></div>
-
+	<div class="titles">
+		<h1>ETCH A SKETCH</h1>
+		<h2>Pizarra Mágica</h2>
+	</div>
+	<div class="gameFrame">
+		<div id="sideTools">
+			<button class="colorSelector" id="colorBlack">BLACK</button>
+			<button class="colorSelector" id="colorBlue">BLUE</button>
+			<button class="colorSelector" id="colorGreen">GREEN</button>
+			<button class="colorSelector" id="colorRed">RED</button>
+			<button class="colorSelector" id="colorDarken">DARKEN</button>
+		</div>
+ 		<button id="resetScreen" onclick="clearScreen()">Reset Screen</button>
+ 		<button id="screenResolution" onclick="changeRes()">Change Resolution</button>
+		<div class="gridContainer" id="display"></div>
+	</div>
+		
 </body>
 
 <script type="text/javascript" src="scripts/script.js"></script>
