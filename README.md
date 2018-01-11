@@ -20,6 +20,8 @@ Este proyecto me resulto algo complicado ya que apenas tenía experiencia real e
 La función "darken / oscurecer" (captura el color actual del pixel y reduce en 10 unidades cada valor RGB) ocupó más del 50% del tiempo total empleado en el proyecto.
 Capturar reglas CSS de diferentes elementos "al vuelo" y devolverlas modificadas me tuvo pensando bastante tiempo y me hizo probar diferentes métodos y algoritmos, especialmente para separar específicamente los valores que quería modificar.
 
+Realizar este proyecto me dió impulso en cuanto a confiancia en mis habilidades, especialmente en JavaScript.
+
 [It can be tested here / Se puede probar aquí](https://javier-machin.github.io/EtchSketch-PizarraMagica/)
 
 
