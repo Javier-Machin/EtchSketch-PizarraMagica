@@ -1,12 +1,5 @@
 body {
-	width: 100%;
-	height: 100%;
 	text-align: center;
-}
-
-.titles {
-	display: inline-block;
-	width: 100%;
 }
 
 .gridContainer {
@@ -41,14 +34,22 @@ button {
 	border-radius: 4px;
 }
 
+button:active {
+	border-color: orange;
+}
+
 button.colorSelector {
-	margin: 20px 0 0 0;
+	margin: 15px 0 0 0;
 	font-size: 20px;
 }
 
-#colorDarken {
+button.colorSelector:focus {
+	border-color: yellow;
+}
+
+#colorMulti {
 	position: relative;
-	margin-top: 50px;
+	margin-top: 35px;
 }
 
 #sideTools {
